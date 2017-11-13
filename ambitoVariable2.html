@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ambitosVariable</title>
+  </head>
+  <body>
+
+    <p id="demo">  </p>
+    <script>
+
+    myFunction();
+    document.getElementById("demo").innerHTML =
+    "The type of carName is " + typeof carName;
+
+    function myFunction() {
+    var carName = "Volvo";
+    }
+
+      </script>
+
+
+    <script>
+
+    var carName = "Volvo";
+      myFunction();
+
+      function myFunction() {
+        document.getElementById("demo").innerHTML =
+        "Puedo mostrar " + carName;
+      }
+
+
+
+    </script>
+
+
+
+
+  </body>
+</html>

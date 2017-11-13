@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<p id="demo"> Javascript puede fasdfasdfasdfascambiar el contenido HTML.</p>
+
+<button type="button" id="button2"
+onclick='document.getElementById("demo").innerHTML = "Hola Mundo!"'>Si </button>
+
+
+  <button type="button"
+      onclick='document.getElementById("demo").innerHTML = "Adios Mundo Cruel!"'>No
+  </button>
+
+
+<button type="button"
+        onclick="document.getElementById('demo').style.fontSize='35px'">Grande
+  </button>
+
+  <button type="button"
+        onclick="document.getElementById('demo').style.fontSize='10px'">Pequeño
+  </button>
+
+ <button type="button"
+        onclick="document.getElementById('demo').style.display='none'">Ocultar
+  </button>
+
+
+
+<button type="button"
+        onclick="document.getElementById('demo').style.display='block'">Mostrar
+  </button>
+
+
+<script>
+  document.write(4+6);
+</script>
+
+  <script>
+    console.log(1 + 6);
+  </script>
+
+
+
+
+  <script>
+  document.getElementById("demo").innerHTML = 5*6;
+</script>
+
+
+  <button onclick='document.getElementById("demo").innerHTML = "Paquito" + " " + "Chocolatero"';>Paquito
+</button>
+
+  <script>
+  var x, y, z, a, s, d, f;
+    x = 3;
+    y = 2;
+    a = 6;
+    s = 4;
+    d = 2;
+    f = 4;
+    z= x + y * a * f - d + s;
+    document.getElementById("demo").innerHTML = z;
+
+  </script>
+
+
+
+<script>
+  var carName = "Volvo";
+  document.getElementById("demo").innerHTML = carName;
+  </script>
+
+
+<script>
+  var x = 10;
+  x+=5; //x= x+5
+  alert ("El valor de x es "+x);
+  var y = 10;
+  y*=5; //y = y * 5
+  alert ("El valor de y es "+y)
+  var z = 10;
+  z%=5;
+  alert ("El valor de < es "+z);
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

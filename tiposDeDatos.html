@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tipos de datos en Javascript</title>
+  </head>
+  <body>
+
+    <script>
+
+      //CADENAS o STRINGS
+      var cadena = "Ada";
+      var cadena2 = 'Lovelace';
+      var cadena3 = "Ada 'Lovelace'";
+
+      //NUMEROS
+      var entero = 3;
+      var decimal = 3.56;
+      var cientifica = 12e-5;
+
+      //BOOLEANOS
+
+      var cierto = true;
+      var falso = false;
+
+      //ARRAY
+      var lista = [1, "Hola", 6, "Caracola"];
+
+      //OBJETOS
+      var animal = {nombre: "Lola", tipo: "Hmaster", raza: "Ruso", edad:1};
+
+      //OPERADOR typeof
+      alert (typeof cadena);
+      alert (typeof cierto);
+      alert (typeof animal);
+
+      //UNDEFINED
+      var objetoSinDefinir;
+      alert (objetoSinDefinir);
+
+      //VACIO
+      var cadena4 = "";
+      alert ("Cadena: "+cadena4 + " tipo: "+typeof cadena4);
+
+      //NULL
+      var animal = null;
+      alert ("Animal: "+animal+ " tipo: "+typeof animal);
+
+      //NULOS vs NO DEFINIDOS
+      typeof undefined;
+      typeof null;
+      null ===undefined;
+      null == undefined;
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+  </body>
+</html>
